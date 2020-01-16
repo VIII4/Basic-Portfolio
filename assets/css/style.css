@@ -1,0 +1,68 @@
+Header
+{
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid grey ;
+    
+    
+    
+}
+
+#title
+{
+    margin-left: 100px;
+    background-color: grey;
+    text-align: center;
+    width: 250px;
+    float: left;
+}
+
+#navLinks
+{
+    padding-top: 30px;
+    margin-right: 100px;
+    float:  right;
+}
+
+.mainContent
+{
+    
+    background-color: khaki;
+    margin: 0px;
+    width: 600px;
+    
+}
+
+#contentTitle
+{
+    
+}
+
+.contentBody
+{
+    border-top: 2px solid grey;
+}
+
+#bioImage
+{
+    
+    width: 250px;
+    height: auto;
+    display: inline-block   
+}
+p
+{
+    
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+footer
+{
+    background-color: darkslategrey;
+    border-top: 4px solid teal;
+    height: 30px;
+}
