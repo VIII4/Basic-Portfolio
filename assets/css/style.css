@@ -1,68 +1,150 @@
-Header
-{
-    text-align: center;
-    background-color: white;
-    border-bottom: 1px solid grey ;
-    
-    
-    
+body {
+  margin: 0 auto;
+  background-image: url("../images/prism.png");
 }
 
-#title
-{
-    margin-left: 100px;
-    background-color: grey;
-    text-align: center;
-    width: 250px;
-    float: left;
+.headerBar {
+  margin: 0 auto;
+
+  position: relative;
 }
 
-#navLinks
-{
-    padding-top: 30px;
-    margin-right: 100px;
-    float:  right;
+.headerTitle {
+  text-align: center;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  padding: 20px;
+  background: #4aaaa5;
+  color: white;
+  width: 200px;
+  font-size: 36px;
+  position: absolute;
+  top: 0px;
+  left: 14%;
+  right: 0px;
+  z-index: 1;
 }
 
-.mainContent
-{
-    
-    background-color: khaki;
-    margin: 0px;
-    width: 600px;
-    
+#navLinksContainer {
+  text-align: right;
+  padding: 40px 0px 40px 0px;
+  position: relative;
+  background: white;
+  border-bottom: 2px solid black;
 }
 
-#contentTitle
-{
-    
+.links {
+  padding-top: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 15%;
 }
 
-.contentBody
-{
-    border-top: 2px solid grey;
+.link {
+  font-size: 18px;
+  color: #cccccc;
+  text-decoration: none;
+  padding-right: 5px;
 }
 
-#bioImage
-{
-    
-    width: 250px;
-    height: auto;
-    display: inline-block   
-}
-p
-{
-    
+#wrapper {
+  margin: 40px auto;
 }
 
-.clearfix
-{
-    clear: both;
+.content {
+  margin: 0px auto;
+  width: 960px;
+  padding: 20px;
+
+  background: white;
+  border: 1px solid #dddddd;
+}
+.contentTitle {
+  color: #4aaaa5;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  margin-left: 3px;
+  border-bottom: 3px solid #dddddd;
+  padding-bottom: 20px;
+}
+.fontStyle {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
 }
 
-footer
-{
-    background-color: darkslategrey;
-    border-top: 4px solid teal;
-    height: 30px;
+.subContent {
+  /* padding: 2px; */
+  margin: 0 auto;
+}
+
+#bioPicContainer {
+}
+
+#bioImage {
+  width: 25%;
+  height: auto;
+  float: left;
+}
+
+#contentPara-1 {
+  font-size: 24px;
+  padding-left: 20px;
+  width: 70%;
+  float: left;
+}
+
+#contentPara-2 {
+  clear: both;
+  font-size: 24px;
+  overflow: auto;
+}
+.gallery {
+}
+
+.portfolioImage {
+  width: 100%;
+  height: 200px;
+}
+.portfolioTitle {
+  background-color: #4aaaa5;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 145px;
+}
+
+.galleryRow {
+}
+.galleryColumn {
+  text-align: center;
+  margin: 6px;
+  width: 32%;
+
+  float: left;
+  position: relative;
+}
+
+.galleryRow::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#messageBox {
+  height: 200px;
+  width: 600px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 5px;
+  background: rgb(92, 92, 92);
+  color: white;
+  border-top: 8px solid teal;
+  overflow: auto;
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
 }
