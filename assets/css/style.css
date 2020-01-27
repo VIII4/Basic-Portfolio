@@ -40,6 +40,10 @@ body {
   right: 15%;
 }
 
+.link:hover {
+  cursor: url("../images/bryant.png"), auto;
+}
+
 .link {
   font-size: 18px;
   color: #cccccc;
@@ -131,9 +135,13 @@ body {
   clear: both;
 }
 
+.Input {
+  width: 100%;
+}
+
 #messageBox {
   height: 200px;
-  width: 600px;
+  /* width: 600px; */
 }
 
 .wrapper::after {
@@ -150,7 +158,6 @@ footer {
   border-top: 8px solid teal;
   overflow: auto;
   width: 100%;
-  position: sticky;
+  position: fixed;
   bottom: 0px;
-  min-height: 67px;
 }
