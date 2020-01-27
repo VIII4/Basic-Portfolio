@@ -136,6 +136,11 @@ body {
   width: 600px;
 }
 
+.wrapper::after {
+  clear: both;
+  overflow: hidden;
+}
+
 footer {
   clear: both;
   text-align: center;
@@ -147,4 +152,5 @@ footer {
   width: 100%;
   position: sticky;
   bottom: 0px;
+  min-height: 67px;
 }
